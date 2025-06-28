@@ -1,0 +1,32 @@
+# Core dependencies
+opencv-python==4.8.1.78
+numpy==1.24.3
+matplotlib==3.7.2
+pandas==2.0.3
+fer==22.5.1
+yt-dlp==2024.5.27
+scenedetect==0.6.2
+whisper==1.1.10
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.35.0
+accelerate>=0.25.0
+
+# Video processing
+ffmpeg-python==0.2.0
+moviepy==1.0.3
+
+# Async support
+aiofiles==23.2.1
+asyncio==3.4.3
+
+# Progress bars
+tqdm==4.66.1
+
+# Configuration
+python-dotenv==1.0.0
+
+# Optional but recommended
+Pillow==10.0.0
+scikit-image==0.21.0
+scipy==1.11.1
