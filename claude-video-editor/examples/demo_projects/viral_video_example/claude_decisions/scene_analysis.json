@@ -1,0 +1,192 @@
+{
+  "video_id": "C0018",
+  "platform": "instagram",
+  "target_duration": 15.0,
+  "aspect_ratio": "9:16",
+  "original_resolution": [1920, 1080],
+  "target_resolution": [1080, 1920],
+  "fps": 30,
+  "total_frames": 450,
+  "timestamps": [
+    {
+      "start": 0.0,
+      "end": 0.5,
+      "frame_range": [0, 15],
+      "description": "Black screen fade in",
+      "shot_type": "transition",
+      "emotion": "anticipation",
+      "effects": ["fade_in"],
+      "audio": {"music_volume": 0.3}
+    },
+    {
+      "start": 0.5,
+      "end": 3.0,
+      "frame_range": [15, 90],
+      "description": "Hook moment - dramatic reveal",
+      "shot_type": "close_up",
+      "emotion": "surprise",
+      "effects": ["zoom_pulse", "shake_light"],
+      "text_overlay": {
+        "content": "WATCH THIS",
+        "style": {
+          "fontSize": 96,
+          "color": "#FFFFFF",
+          "strokeColor": "#000000",
+          "strokeWidth": 3,
+          "position": {"x": 540, "y": 800}
+        },
+        "animation": {
+          "type": "scale_bounce",
+          "values": [0, 1.3, 1],
+          "duration": 0.5
+        }
+      },
+      "audio": {"sfx": "whoosh.wav", "timing": 0.5}
+    },
+    {
+      "start": 3.0,
+      "end": 7.0,
+      "frame_range": [90, 210],
+      "description": "Main content - key transformation",
+      "shot_type": "medium",
+      "emotion": "excited",
+      "effects": ["speed_ramp", "color_pop"],
+      "text_overlay": {
+        "content": "IN JUST 3 STEPS",
+        "style": {
+          "fontSize": 72,
+          "color": "#FFD700",
+          "position": {"x": 540, "y": 1600}
+        },
+        "animation": {
+          "type": "slide_up",
+          "duration": 0.3
+        }
+      },
+      "b_roll_cuts": [
+        {"start": 4.0, "duration": 0.5, "source": "detail_shot_01"},
+        {"start": 5.5, "duration": 0.5, "source": "detail_shot_02"}
+      ]
+    },
+    {
+      "start": 7.0,
+      "end": 11.0,
+      "frame_range": [210, 330],
+      "description": "Benefits showcase - rapid cuts",
+      "shot_type": "montage",
+      "emotion": "confident",
+      "effects": ["quick_cuts", "motion_blur"],
+      "text_overlays": [
+        {
+          "content": "✓ FAST",
+          "timing": {"start": 7.5, "duration": 1.0},
+          "style": {"fontSize": 64, "color": "#4CAF50"}
+        },
+        {
+          "content": "✓ EASY", 
+          "timing": {"start": 8.5, "duration": 1.0},
+          "style": {"fontSize": 64, "color": "#4CAF50"}
+        },
+        {
+          "content": "✓ PROVEN",
+          "timing": {"start": 9.5, "duration": 1.0},
+          "style": {"fontSize": 64, "color": "#4CAF50"}
+        }
+      ],
+      "audio": {"music_intensity": 0.8, "beat_sync": true}
+    },
+    {
+      "start": 11.0,
+      "end": 13.5,
+      "frame_range": [330, 405],
+      "description": "Social proof moment",
+      "shot_type": "wide",
+      "emotion": "trust",
+      "effects": ["slight_zoom", "vignette"],
+      "text_overlay": {
+        "content": "10K+ LOVE IT",
+        "style": {
+          "fontSize": 84,
+          "color": "#FFFFFF",
+          "backgroundColor": "#FF1744",
+          "padding": 20,
+          "position": {"x": 540, "y": 960}
+        },
+        "animation": {
+          "type": "pulse",
+          "duration": 2.5
+        }
+      }
+    },
+    {
+      "start": 13.5,
+      "end": 15.0,
+      "frame_range": [405, 450],
+      "description": "Call to action - urgency",
+      "shot_type": "close_up",
+      "emotion": "urgent",
+      "effects": ["zoom_in", "shake_heavy", "flash"],
+      "text_overlay": {
+        "content": "SWIPE UP NOW",
+        "style": {
+          "fontSize": 108,
+          "color": "#000000",
+          "backgroundColor": "#FFD700",
+          "borderRadius": 20,
+          "position": {"x": 540, "y": 960}
+        },
+        "animation": {
+          "type": "shake_scale",
+          "intensity": 10,
+          "duration": 1.5
+        }
+      },
+      "audio": {
+        "sfx": "impact.wav",
+        "timing": 13.5,
+        "music_fade_out": true
+      }
+    }
+  ],
+  "edit_instructions": {
+    "pacing": "fast",
+    "energy_curve": [0.3, 0.8, 0.6, 0.9, 0.7, 1.0],
+    "transition_style": "hard_cuts",
+    "color_grade": "vibrant_instagram",
+    "crop_focus": "center_vertical",
+    "mobile_optimization": true
+  },
+  "audio_tracks": {
+    "music": {
+      "file": "upbeat_15s.mp3",
+      "sync_points": [0, 3, 7, 11, 13.5],
+      "volume_automation": [
+        {"time": 0, "level": 0.3},
+        {"time": 0.5, "level": 0.6},
+        {"time": 3, "level": 0.8},
+        {"time": 13, "level": 0.5},
+        {"time": 14.5, "level": 0.2}
+      ]
+    },
+    "sfx": [
+      {"file": "whoosh.wav", "time": 0.5, "volume": 0.8},
+      {"file": "tick.wav", "time": 7.5, "volume": 0.6},
+      {"file": "tick.wav", "time": 8.5, "volume": 0.6},
+      {"file": "tick.wav", "time": 9.5, "volume": 0.6},
+      {"file": "impact.wav", "time": 13.5, "volume": 1.0}
+    ]
+  },
+  "platform_specs": {
+    "instagram": {
+      "codec": "h264",
+      "bitrate": "5M",
+      "audio_bitrate": "128k",
+      "pixel_format": "yuv420p",
+      "color_adjustments": {
+        "saturation": 1.1,
+        "contrast": 1.05,
+        "brightness": 0.02
+      }
+    }
+  }
+}

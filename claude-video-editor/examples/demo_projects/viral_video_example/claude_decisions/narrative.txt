@@ -1,0 +1,43 @@
+SCENE: C0018 - INSTAGRAM VIRAL EDIT - 15 SECONDS
+
+FORMAT: 9:16 Vertical (1080x1920)
+STYLE: Fast-paced, High Energy, Mobile-First
+
+[0.0s - 0.5s] FADE IN FROM BLACK
+The screen comes alive with anticipation. Music begins softly.
+
+[0.5s - 3.0s] HOOK - "WATCH THIS"
+CLOSE-UP on main subject. Text EXPLODES onto screen with scale bounce 
+animation. White text with black stroke for maximum readability. 
+Light camera shake adds energy. Whoosh sound effect punctuates the moment.
+
+[3.0s - 7.0s] MAIN CONTENT - "IN JUST 3 STEPS"
+MEDIUM SHOT with speed ramping. Golden text slides up from bottom.
+Quick B-roll cuts at 4.0s and 5.5s show detail shots. 
+Music intensity builds. Each cut synced to beat.
+
+[7.0s - 11.0s] BENEFITS MONTAGE
+RAPID-FIRE presentation of three benefits:
+- "✓ FAST" (green checkmark)
+- "✓ EASY" (green checkmark)  
+- "✓ PROVEN" (green checkmark)
+Each appears with tick sound effect. Motion blur between cuts.
+
+[11.0s - 13.5s] SOCIAL PROOF - "10K+ LOVE IT"
+WIDE SHOT with slight zoom and vignette effect. 
+Red background badge pulses for 2.5 seconds.
+Music reaches emotional peak.
+
+[13.5s - 15.0s] CALL TO ACTION - "SWIPE UP NOW"
+EXTREME CLOSE-UP with aggressive zoom. Heavy shake effect.
+Yellow background with black text. Flash effect on impact.
+Music fades as impact sound hits.
+
+TECHNICAL NOTES:
+- Frame rate: 30fps (450 total frames)
+- Crop: Center vertical for 9:16
+- Color grade: +10% saturation, +5% contrast for Instagram
+- Audio: -12dB normalized, 128kbps AAC
+- Export: H.264, 5Mbps, yuv420p
+
+END SCENE

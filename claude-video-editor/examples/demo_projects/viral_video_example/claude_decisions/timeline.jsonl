@@ -1,0 +1,12 @@
+{"frame": 0, "timestamp": 0.0, "scene": "fade_in", "description": "Black screen beginning fade", "emotion": "anticipation", "action": "none"}
+{"frame": 15, "timestamp": 0.5, "scene": "hook", "description": "Dramatic reveal begins", "emotion": "surprise", "action": "add_text", "text": "WATCH THIS", "effect": "zoom_pulse"}
+{"frame": 30, "timestamp": 1.0, "scene": "hook", "description": "Subject in focus, slight camera shake", "emotion": "intense", "action": "shake_effect", "intensity": 0.3}
+{"frame": 90, "timestamp": 3.0, "scene": "main_content", "description": "Transition to main content", "emotion": "excited", "action": "speed_ramp", "text": "IN JUST 3 STEPS"}
+{"frame": 120, "timestamp": 4.0, "scene": "main_content", "description": "First detail shot insert", "emotion": "focused", "action": "cut_to_broll", "source": "detail_shot_01"}
+{"frame": 165, "timestamp": 5.5, "scene": "main_content", "description": "Second detail shot insert", "emotion": "engaged", "action": "cut_to_broll", "source": "detail_shot_02"}
+{"frame": 210, "timestamp": 7.0, "scene": "benefits", "description": "Rapid benefit showcase begins", "emotion": "confident", "action": "quick_cuts", "text": "✓ FAST"}
+{"frame": 255, "timestamp": 8.5, "scene": "benefits", "description": "Second benefit appears", "emotion": "assured", "action": "add_text", "text": "✓ EASY"}
+{"frame": 285, "timestamp": 9.5, "scene": "benefits", "description": "Third benefit appears", "emotion": "triumphant", "action": "add_text", "text": "✓ PROVEN"}
+{"frame": 330, "timestamp": 11.0, "scene": "social_proof", "description": "Wide shot with social proof", "emotion": "trust", "action": "add_vignette", "text": "10K+ LOVE IT"}
+{"frame": 405, "timestamp": 13.5, "scene": "cta", "description": "Urgent call to action", "emotion": "urgent", "action": "zoom_shake", "text": "SWIPE UP NOW", "effect": "flash"}
+{"frame": 450, "timestamp": 15.0, "scene": "end", "description": "Final frame hold", "emotion": "decisive", "action": "freeze_frame"}
